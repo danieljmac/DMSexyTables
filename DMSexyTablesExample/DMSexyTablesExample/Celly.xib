@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="176" id="KGk-i7-Jjw" customClass="Celly">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="176"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view alpha="0.49999999999999961" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QYt-ra-2tH">
+                        <rect key="frame" x="10" y="9" width="300" height="157"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cool Cell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ttt-Lr-aFi">
+                        <rect key="frame" x="63" y="21" width="194" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="38" id="DYo-tL-1Or"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="21"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In Sexy Table 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Rap-Lh-93h">
+                        <rect key="frame" x="22" y="68" width="276" height="88"/>
+                        <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="29"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Rap-Lh-93h" secondAttribute="bottom" constant="19" id="10K-N9-AP8"/>
+                    <constraint firstAttribute="trailing" secondItem="QYt-ra-2tH" secondAttribute="trailing" constant="10" id="3Fo-Sr-5rO"/>
+                    <constraint firstItem="QYt-ra-2tH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="631-kQ-XfH"/>
+                    <constraint firstItem="Ttt-Lr-aFi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="6tv-GV-QCs"/>
+                    <constraint firstItem="Rap-Lh-93h" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="68" id="9Sx-xV-70x"/>
+                    <constraint firstAttribute="bottom" secondItem="QYt-ra-2tH" secondAttribute="bottom" constant="9" id="TcW-ox-E88"/>
+                    <constraint firstItem="QYt-ra-2tH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="XQA-ac-QLc"/>
+                    <constraint firstAttribute="trailing" secondItem="Rap-Lh-93h" secondAttribute="trailing" constant="22" id="aMt-wS-9M1"/>
+                    <constraint firstAttribute="trailing" secondItem="Ttt-Lr-aFi" secondAttribute="trailing" constant="63" id="pjd-bS-f6K"/>
+                    <constraint firstItem="Rap-Lh-93h" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="qPe-BD-6VI"/>
+                    <constraint firstItem="Ttt-Lr-aFi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="63" id="vz1-24-ijU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellyLabel" destination="Rap-Lh-93h" id="IB9-eu-0pn"/>
+            </connections>
+            <point key="canvasLocation" x="272" y="375"/>
+        </tableViewCell>
+    </objects>
+</document>

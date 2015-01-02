@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651C460F1A561D7A00BA5E56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C460E1A561D7A00BA5E56 /* main.m */; };
+		651C46121A561D7A00BA5E56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C46111A561D7A00BA5E56 /* AppDelegate.m */; };
+		651C46151A561D7A00BA5E56 /* DMSexyTablesExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 651C46131A561D7A00BA5E56 /* DMSexyTablesExample.xcdatamodeld */; };
+		651C46181A561D7A00BA5E56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C46171A561D7A00BA5E56 /* ViewController.m */; };
+		651C461B1A561D7A00BA5E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651C46191A561D7A00BA5E56 /* Main.storyboard */; };
+		651C461D1A561D7A00BA5E56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651C461C1A561D7A00BA5E56 /* Images.xcassets */; };
+		651C46201A561D7A00BA5E56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651C461E1A561D7A00BA5E56 /* LaunchScreen.xib */; };
+		651C462C1A561D7A00BA5E56 /* DMSexyTablesExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C462B1A561D7A00BA5E56 /* DMSexyTablesExampleTests.m */; };
+		651C46381A561E4900BA5E56 /* DMSexyTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C46371A561E4900BA5E56 /* DMSexyTable.m */; };
+		651C463B1A561E8500BA5E56 /* DMTableSwiperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C463A1A561E8500BA5E56 /* DMTableSwiperView.m */; };
+		651C463E1A561F0700BA5E56 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C463D1A561F0700BA5E56 /* UIImage+ImageEffects.m */; };
+		651C464B1A56215E00BA5E56 /* Celly.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C46491A56215E00BA5E56 /* Celly.m */; };
+		651C464C1A56215E00BA5E56 /* Celly.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651C464A1A56215E00BA5E56 /* Celly.xib */; };
+		651C46511A56221F00BA5E56 /* tempBg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651C464E1A56221F00BA5E56 /* tempBg2@2x.png */; };
+		651C46521A56221F00BA5E56 /* tempBg3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651C464F1A56221F00BA5E56 /* tempBg3@2x.png */; };
+		651C46531A56221F00BA5E56 /* tempBg4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651C46501A56221F00BA5E56 /* tempBg4@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		651C46261A561D7A00BA5E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651C46011A561D7A00BA5E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651C46081A561D7A00BA5E56;
+			remoteInfo = DMSexyTablesExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		651C46091A561D7A00BA5E56 /* DMSexyTablesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMSexyTablesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C460D1A561D7A00BA5E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651C460E1A561D7A00BA5E56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		651C46101A561D7A00BA5E56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		651C46111A561D7A00BA5E56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		651C46141A561D7A00BA5E56 /* DMSexyTablesExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DMSexyTablesExample.xcdatamodel; sourceTree = "<group>"; };
+		651C46161A561D7A00BA5E56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		651C46171A561D7A00BA5E56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		651C461A1A561D7A00BA5E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		651C461C1A561D7A00BA5E56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		651C461F1A561D7A00BA5E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		651C46251A561D7A00BA5E56 /* DMSexyTablesExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMSexyTablesExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C462A1A561D7A00BA5E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651C462B1A561D7A00BA5E56 /* DMSexyTablesExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSexyTablesExampleTests.m; sourceTree = "<group>"; };
+		651C46361A561E4900BA5E56 /* DMSexyTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSexyTable.h; sourceTree = "<group>"; };
+		651C46371A561E4900BA5E56 /* DMSexyTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSexyTable.m; sourceTree = "<group>"; };
+		651C46391A561E8500BA5E56 /* DMTableSwiperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTableSwiperView.h; sourceTree = "<group>"; };
+		651C463A1A561E8500BA5E56 /* DMTableSwiperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTableSwiperView.m; sourceTree = "<group>"; };
+		651C463C1A561F0700BA5E56 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		651C463D1A561F0700BA5E56 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		651C46481A56215E00BA5E56 /* Celly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Celly.h; sourceTree = "<group>"; };
+		651C46491A56215E00BA5E56 /* Celly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Celly.m; sourceTree = "<group>"; };
+		651C464A1A56215E00BA5E56 /* Celly.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Celly.xib; sourceTree = "<group>"; };
+		651C464E1A56221F00BA5E56 /* tempBg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tempBg2@2x.png"; sourceTree = "<group>"; };
+		651C464F1A56221F00BA5E56 /* tempBg3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tempBg3@2x.png"; sourceTree = "<group>"; };
+		651C46501A56221F00BA5E56 /* tempBg4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tempBg4@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		651C46061A561D7A00BA5E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C46221A561D7A00BA5E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		651C46001A561D7A00BA5E56 = {
+			isa = PBXGroup;
+			children = (
+				651C460B1A561D7A00BA5E56 /* DMSexyTablesExample */,
+				651C46281A561D7A00BA5E56 /* DMSexyTablesExampleTests */,
+				651C460A1A561D7A00BA5E56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		651C460A1A561D7A00BA5E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				651C46091A561D7A00BA5E56 /* DMSexyTablesExample.app */,
+				651C46251A561D7A00BA5E56 /* DMSexyTablesExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		651C460B1A561D7A00BA5E56 /* DMSexyTablesExample */ = {
+			isa = PBXGroup;
+			children = (
+				651C46351A561E0000BA5E56 /* DMSexyTables */,
+				651C46101A561D7A00BA5E56 /* AppDelegate.h */,
+				651C46111A561D7A00BA5E56 /* AppDelegate.m */,
+				651C46191A561D7A00BA5E56 /* Main.storyboard */,
+				651C464D1A56220600BA5E56 /* Resources */,
+				651C463F1A5620E200BA5E56 /* ViewStuff */,
+				651C461C1A561D7A00BA5E56 /* Images.xcassets */,
+				651C461E1A561D7A00BA5E56 /* LaunchScreen.xib */,
+				651C46131A561D7A00BA5E56 /* DMSexyTablesExample.xcdatamodeld */,
+				651C460C1A561D7A00BA5E56 /* Supporting Files */,
+			);
+			path = DMSexyTablesExample;
+			sourceTree = "<group>";
+		};
+		651C460C1A561D7A00BA5E56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				651C460D1A561D7A00BA5E56 /* Info.plist */,
+				651C460E1A561D7A00BA5E56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		651C46281A561D7A00BA5E56 /* DMSexyTablesExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				651C462B1A561D7A00BA5E56 /* DMSexyTablesExampleTests.m */,
+				651C46291A561D7A00BA5E56 /* Supporting Files */,
+			);
+			path = DMSexyTablesExampleTests;
+			sourceTree = "<group>";
+		};
+		651C46291A561D7A00BA5E56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				651C462A1A561D7A00BA5E56 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		651C46351A561E0000BA5E56 /* DMSexyTables */ = {
+			isa = PBXGroup;
+			children = (
+				651C463C1A561F0700BA5E56 /* UIImage+ImageEffects.h */,
+				651C463D1A561F0700BA5E56 /* UIImage+ImageEffects.m */,
+				651C46361A561E4900BA5E56 /* DMSexyTable.h */,
+				651C46371A561E4900BA5E56 /* DMSexyTable.m */,
+				651C46391A561E8500BA5E56 /* DMTableSwiperView.h */,
+				651C463A1A561E8500BA5E56 /* DMTableSwiperView.m */,
+			);
+			name = DMSexyTables;
+			sourceTree = "<group>";
+		};
+		651C463F1A5620E200BA5E56 /* ViewStuff */ = {
+			isa = PBXGroup;
+			children = (
+				651C46161A561D7A00BA5E56 /* ViewController.h */,
+				651C46171A561D7A00BA5E56 /* ViewController.m */,
+				651C46481A56215E00BA5E56 /* Celly.h */,
+				651C46491A56215E00BA5E56 /* Celly.m */,
+				651C464A1A56215E00BA5E56 /* Celly.xib */,
+			);
+			name = ViewStuff;
+			sourceTree = "<group>";
+		};
+		651C464D1A56220600BA5E56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				651C464E1A56221F00BA5E56 /* tempBg2@2x.png */,
+				651C464F1A56221F00BA5E56 /* tempBg3@2x.png */,
+				651C46501A56221F00BA5E56 /* tempBg4@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		651C46081A561D7A00BA5E56 /* DMSexyTablesExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651C462F1A561D7A00BA5E56 /* Build configuration list for PBXNativeTarget "DMSexyTablesExample" */;
+			buildPhases = (
+				651C46051A561D7A00BA5E56 /* Sources */,
+				651C46061A561D7A00BA5E56 /* Frameworks */,
+				651C46071A561D7A00BA5E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMSexyTablesExample;
+			productName = DMSexyTablesExample;
+			productReference = 651C46091A561D7A00BA5E56 /* DMSexyTablesExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		651C46241A561D7A00BA5E56 /* DMSexyTablesExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651C46321A561D7A00BA5E56 /* Build configuration list for PBXNativeTarget "DMSexyTablesExampleTests" */;
+			buildPhases = (
+				651C46211A561D7A00BA5E56 /* Sources */,
+				651C46221A561D7A00BA5E56 /* Frameworks */,
+				651C46231A561D7A00BA5E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651C46271A561D7A00BA5E56 /* PBXTargetDependency */,
+			);
+			name = DMSexyTablesExampleTests;
+			productName = DMSexyTablesExampleTests;
+			productReference = 651C46251A561D7A00BA5E56 /* DMSexyTablesExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		651C46011A561D7A00BA5E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Daniel McCarthy";
+				TargetAttributes = {
+					651C46081A561D7A00BA5E56 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					651C46241A561D7A00BA5E56 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 651C46081A561D7A00BA5E56;
+					};
+				};
+			};
+			buildConfigurationList = 651C46041A561D7A00BA5E56 /* Build configuration list for PBXProject "DMSexyTablesExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 651C46001A561D7A00BA5E56;
+			productRefGroup = 651C460A1A561D7A00BA5E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				651C46081A561D7A00BA5E56 /* DMSexyTablesExample */,
+				651C46241A561D7A00BA5E56 /* DMSexyTablesExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		651C46071A561D7A00BA5E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C461B1A561D7A00BA5E56 /* Main.storyboard in Resources */,
+				651C46201A561D7A00BA5E56 /* LaunchScreen.xib in Resources */,
+				651C46511A56221F00BA5E56 /* tempBg2@2x.png in Resources */,
+				651C461D1A561D7A00BA5E56 /* Images.xcassets in Resources */,
+				651C464C1A56215E00BA5E56 /* Celly.xib in Resources */,
+				651C46531A56221F00BA5E56 /* tempBg4@2x.png in Resources */,
+				651C46521A56221F00BA5E56 /* tempBg3@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C46231A561D7A00BA5E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		651C46051A561D7A00BA5E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C463B1A561E8500BA5E56 /* DMTableSwiperView.m in Sources */,
+				651C46121A561D7A00BA5E56 /* AppDelegate.m in Sources */,
+				651C463E1A561F0700BA5E56 /* UIImage+ImageEffects.m in Sources */,
+				651C464B1A56215E00BA5E56 /* Celly.m in Sources */,
+				651C46151A561D7A00BA5E56 /* DMSexyTablesExample.xcdatamodeld in Sources */,
+				651C46381A561E4900BA5E56 /* DMSexyTable.m in Sources */,
+				651C46181A561D7A00BA5E56 /* ViewController.m in Sources */,
+				651C460F1A561D7A00BA5E56 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C46211A561D7A00BA5E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C462C1A561D7A00BA5E56 /* DMSexyTablesExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		651C46271A561D7A00BA5E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 651C46081A561D7A00BA5E56 /* DMSexyTablesExample */;
+			targetProxy = 651C46261A561D7A00BA5E56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		651C46191A561D7A00BA5E56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651C461A1A561D7A00BA5E56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		651C461E1A561D7A00BA5E56 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651C461F1A561D7A00BA5E56 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		651C462D1A561D7A00BA5E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		651C462E1A561D7A00BA5E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		651C46301A561D7A00BA5E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMSexyTablesExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		651C46311A561D7A00BA5E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMSexyTablesExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		651C46331A561D7A00BA5E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMSexyTablesExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMSexyTablesExample.app/DMSexyTablesExample";
+			};
+			name = Debug;
+		};
+		651C46341A561D7A00BA5E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMSexyTablesExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMSexyTablesExample.app/DMSexyTablesExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		651C46041A561D7A00BA5E56 /* Build configuration list for PBXProject "DMSexyTablesExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C462D1A561D7A00BA5E56 /* Debug */,
+				651C462E1A561D7A00BA5E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651C462F1A561D7A00BA5E56 /* Build configuration list for PBXNativeTarget "DMSexyTablesExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C46301A561D7A00BA5E56 /* Debug */,
+				651C46311A561D7A00BA5E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651C46321A561D7A00BA5E56 /* Build configuration list for PBXNativeTarget "DMSexyTablesExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C46331A561D7A00BA5E56 /* Debug */,
+				651C46341A561D7A00BA5E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		651C46131A561D7A00BA5E56 /* DMSexyTablesExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				651C46141A561D7A00BA5E56 /* DMSexyTablesExample.xcdatamodel */,
+			);
+			currentVersion = 651C46141A561D7A00BA5E56 /* DMSexyTablesExample.xcdatamodel */;
+			path = DMSexyTablesExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 651C46011A561D7A00BA5E56 /* Project object */;
+}
