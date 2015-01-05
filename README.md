@@ -1,0 +1,1 @@
+Custom container that allows you to add multiple tableviews to a viewcontroller, and swipe/page between them. The custom tableviews also support a background image that has a parallax effect when swiping between tables. The tables also have a blur effect on the background image when scrolled vertically
